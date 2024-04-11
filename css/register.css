@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body::before {
+    content: "";
+    background-image: url('../AdminB.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.58;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    width:100%;
+    justify-content : center;
+
+}
+
+.reg-body{
+    /* display : flex; */
+    width:80%;
+    /* border : 2px solid red; */
+    /* //justify-content: center; */
+    margin-top: 80px;
+    background : #2c2c2c92; 
+    /* backdrop-filter: blur(2px); */
+}
+
+.reg-body table{
+    width:100%;
+    border : 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    overflow:hidden;
+
+}
+
+.reg-body table th,td{
+    text-align: center;
+    border: 3px solid #f17951;
+}
+
+.reg-body table th{
+    background-color: #070f2bab;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    padding:4px;
+
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+    /* font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+}
+
+.reg-body table td{
+    color:rgb(255, 255, 255);
+    padding:4px;
+    font-family: "Protest Riot", sans-serif;
+  font-style: normal;
+
+}
+
+.reg-body table td a{
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    color:#DCFFB7;
+    padding:4px;
+    font-family: "Protest Riot", sans-serif;
+  font-style: normal;
+  
+}
+
+
+
+
